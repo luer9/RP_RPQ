@@ -15,7 +15,7 @@
 | Y_Q7  | $infulences^{\*}/isMarriedTo^{\*}$                     | $KS_{one}$ |
 | Y_Q8  | $isMarriedTo^{\*}/hasChild^{\*}$                       | $KS_{one}$ |
 | Y_Q9  | $isKnownFor^{\*}/isMarriedTo^{\*}/hasChild^{\*}$          | $KS_{one}$ |
-| Y_Q10 | $isKnownFor^{\*}/isMarriedTo^{\*}/hasChild^{\*}$          | $KS_{one}$ |
+| Y_Q10 | $infulences^{\*}/isMarriedTo^{\*}/hasChild^{\*}$          | $KS_{one}$ |
 | Y_Q11 | $(isConnectedTo/isLocatedIn/owns)^{\*}$             | $KS_{fm}$ |
 | Y_Q12 | $(dealsWith/participatedIn/isLocatedIn)^{\*}$       |  $KS_{fm}$ |
 | Y_Q13 | $(isLeaderOf/dealsWith/participatedIn)^{\*}$        |  $KS_{fm}$ |
