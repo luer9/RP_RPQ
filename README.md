@@ -6,7 +6,7 @@
 
 | index | query                                            | type |
 | ----- | ------------------------------------------------ | ---- |
-| Y_Q1  | $hasCapital^*$                                   | 
+| Y_Q1  | $hasCapital^*$                                   | $KS_{one}$ |
 | Y_Q2  | $hasAcademicAdvisor^*$                           |
 | Y_Q3  | $created^*$                                      |
 | Y_Q4  | $hasChild^*$                                     |
@@ -27,8 +27,8 @@
 
  
 
-| index | query                                                        |
-| ----- | ------------------------------------------------------------ |
+| index | query                                                        | type |
+| ----- | ------------------------------------------------------------ | ---- |
 | L_Q1  | $subOrganizationOf$                                          |
 | L_Q2  | $worksFor/subOrganizationOf^{\*}$                               |
 | L_Q3  | $headOf/subOrganizationOf^{\*}/name$                            |
